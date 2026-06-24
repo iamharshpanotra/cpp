@@ -13,9 +13,9 @@ int main(){
 
     // 2. Loop to reverse the digits of the number
     while(num != 0){
-        int remainder = original_num % 10;
+        int remainder = num % 10;
         //cout << remainder << endl;
-        int reversed_num = (reversed_num * 10) + remainder;
+        reversed_num = (reversed_num * 10) + remainder;
         //cout << reversed_num << endl;
         num = num / 10;
         //cout << num << endl;
