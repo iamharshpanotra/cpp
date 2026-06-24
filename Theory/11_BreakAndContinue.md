@@ -1,4 +1,3 @@
-```markdown
 # Break and Continue Statements in C++
 
 ## 1. What is the `break` Statement?
