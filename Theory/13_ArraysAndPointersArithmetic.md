@@ -6,18 +6,19 @@ Think of an **array** as a row of fixed-size lockers in a company warehouse. Eac
 
 ```cpp
 #include <iostream>
+using namespace std;
 
 int main() {
     // Real-world: Store 5 employee IDs
     int employeeIds[5] = {101, 102, 103, 104, 105};
     
     // Access like lockers
-    std::cout << "Employee 0: " << employeeIds[0] << std::endl;  // 101
-    std::cout << "Employee 3: " << employeeIds[3] << std::endl;  // 104
+    cout << "Employee 0: " << employeeIds[0] << endl;  // 101
+    cout << "Employee 3: " << employeeIds[3] << ndl;  // 104
     
     // Modify
     employeeIds[2] = 999;  // Update ID of third employee
-    std::cout << "Updated Employee 2: " << employeeIds[2] << std::endl;
+    cout << "Updated Employee 2: " << employeeIds[2] << endl;
     
     return 0;
 }
