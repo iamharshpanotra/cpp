@@ -209,7 +209,3 @@ enum Status {
 - Use **struct** when you need multiple pieces of data together.
 - Use **union** only when memory is critical and you are sure only one member is active.
 - Use **enum** (especially `enum class`) to avoid magic numbers and make code self-documenting.
-
-**Practice Exercise**: Create a `struct Player` with name, score, and level. Add an `enum class GameState` for MENU, PLAYING, END. Use them together in a small program.
-
-Compile and run the examples above to see them in action. This is the foundation for many real C++ projects! If you have questions about any part, ask.
